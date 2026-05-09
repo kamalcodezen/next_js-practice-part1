@@ -40,6 +40,14 @@ const Navbar = () => {
           Friends
         </Link>
       </li>
+      <li>
+        <Link
+          className={pathname === "/email" ? "bg-indigo-500 text-white" : ""}
+          href="/email"
+        >
+          Email Dashboard
+        </Link>
+      </li>
     </>
   );
 
