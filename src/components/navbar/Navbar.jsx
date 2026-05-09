@@ -3,8 +3,6 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-
-
 const Navbar = () => {
   const pathname = usePathname();
 
@@ -21,7 +19,7 @@ const Navbar = () => {
       <li>
         <Link
           className={pathname === "/about" ? "bg-indigo-500 text-white" : ""}
-          href="about"
+          href="/about"
         >
           About
         </Link>
@@ -29,9 +27,17 @@ const Navbar = () => {
       <li>
         <Link
           className={pathname === "/profile" ? "bg-indigo-500 text-white" : ""}
-          href="profile"
+          href="/profile"
         >
           Profile
+        </Link>
+      </li>
+      <li>
+        <Link
+          className={pathname === "/friends" ? "bg-indigo-500 text-white" : ""}
+          href="/friends"
+        >
+          Friends
         </Link>
       </li>
     </>

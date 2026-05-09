@@ -109,7 +109,7 @@ const FriendsPage = () => {
           <h2>{friend.name}</h2>
           <h2>{friend.location}</h2>
           <Link href={`/friends/${friend.id}`}>
-            <button>Info</button>
+            <button className="btn btn-info">Info</button>
           </Link>
         </div>
       ))}
