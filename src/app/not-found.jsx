@@ -4,8 +4,8 @@ const NotFound = () => {
     return (
         <div>
             <h2>404</h2>
-            <h2>This Page Not Available</h2>
-        </div>
+            <h2>This Page Not Available </h2>
+        </div> 
     );
 };
 
